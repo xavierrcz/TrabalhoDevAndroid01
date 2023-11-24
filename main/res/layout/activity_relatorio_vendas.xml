@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.vews.view.RelatorioVendasActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-34dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relatório de Pagamentos"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <ImageButton
+        android:id="@+id/btSetaDireita"
+        android:layout_width="65dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_arrow_right"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="117dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/btSetaEsquerda"
+        android:layout_width="65dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_arrow_left"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="117dp">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nov/2023"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_checkk"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="193dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_checkk"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="354dp"
+        tools:layout_editor_absoluteY="286dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_list"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="193dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:src="@drawable/ic_cancel"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="193dp">
+
+
+    </ImageButton>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:src="@drawable/ic_cancel"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="353dp"
+        tools:layout_editor_absoluteY="423dp">
+
+
+    </ImageButton>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="15dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="7dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_calendar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="274dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_calendar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="553dp">
+
+    </ImageButton>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="7dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cpf: 9999999999"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 85"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_pending"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="353dp"
+        tools:layout_editor_absoluteY="565dp">
+
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Renato da Cruz"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_calendar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="412dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+
+        android:src="@drawable/ic_pending"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="193dp">
+
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guilherme Campos Labate"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Murilo Pyetro"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cpf: 66666666666"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cpf: 69696969696"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 250"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 50"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E8E8E8"
+        android:src="@drawable/ic_home"
+        android:background=""
+        tools:ignore="MissingConstraints"
+        app:circularflow_defaultRadius="@android:dimen/app_icon_size"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="645dp">
+
+    </ImageButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
